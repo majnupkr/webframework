@@ -1,0 +1,20 @@
+{
+    "browser": "chrome",
+    "electronOptions" : {
+        "server":"http://localhost:9515",
+        "capabilities": null
+    },
+    "logLevel": "ALL",
+    "logPath": "./output/logs",
+    "reportPath": "./output/reports",
+    "retry": 0,
+    "timeout": 0,
+    "writeToDB": false,
+    "DBHost": "Not specified",
+    "platform": "Not specified",
+    "product": "Not specified",
+    "productVersion": "Not specified",
+    "buildId": "Not specified",
+    "team": "Not specified",
+	"mailOptions": null
+}

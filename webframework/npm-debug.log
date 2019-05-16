@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\WALNUT\\node_modules\\webframework',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\vkallem\AppData\Roaming\npm-cache\webframework\1.4.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\vkallem\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle webframework@1.4.0~prepublish: webframework@1.4.0
+11 silly lifecycle webframework@1.4.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\vkallem\\AppData\\Roaming\\npm-cache\\webframework\\1.4.0\\package.tgz',
+12 verbose tar pack   'C:\\WALNUT\\node_modules\\webframework' ]
+13 verbose tarball C:\Users\vkallem\AppData\Roaming\npm-cache\webframework\1.4.0\package.tgz
+14 verbose folder C:\WALNUT\node_modules\webframework
+15 verbose addLocalTarball adding from inside cache C:\Users\vkallem\AppData\Roaming\npm-cache\webframework\1.4.0\package.tgz
+16 verbose correctMkdir C:\Users\vkallem\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd webframework@1.4.0
+18 verbose afterAdd C:\Users\vkallem\AppData\Roaming\npm-cache\webframework\1.4.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\vkallem\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\vkallem\AppData\Roaming\npm-cache\webframework\1.4.0\package\package.json written
+21 silly publish { _args: [ [ [Object], 'C:\\WALNUT' ] ],
+21 silly publish   _from: '.',
+21 silly publish   _id: 'webframework@1.4.0',
+21 silly publish   _inCache: true,
+21 silly publish   _location: '/webframework',
+21 silly publish   _nodeVersion: '6.7.0',
+21 silly publish   _npmUser: {},
+21 silly publish   _npmVersion: '3.10.8',
+21 silly publish   _phantomChildren: {},
+21 silly publish   _requested:
+21 silly publish    { raw: 'webframework',
+21 silly publish      scope: null,
+21 silly publish      escapedName: 'webframework',
+21 silly publish      name: 'webframework',
+21 silly publish      rawSpec: '',
+21 silly publish      spec: 'latest',
+21 silly publish      type: 'tag' },
+21 silly publish   _requiredBy: [ '#USER', '/' ],
+21 silly publish   _resolved: 'http://172.29.37.159:4873/webframework/-/webframework-1.4.0.tgz',
+21 silly publish   _shasum: 'd3e11a229dc65263614564d94ca60492c5996d2e',
+21 silly publish   _shrinkwrap: null,
+21 silly publish   _spec: 'webframework',
+21 silly publish   _where: 'C:\\WALNUT',
+21 silly publish   author: { name: 'Tuhin Sengupta', email: 'tsengupt@progress.com' },
+21 silly publish   bin: { webf: './js/bin/webf.js' },
+21 silly publish   dependencies:
+21 silly publish    { '@types/chai': '',
+21 silly publish      '@types/elasticsearch': '^5.0.12',
+21 silly publish      '@types/log4js': '',
+21 silly publish      '@types/mkdirp': '^0.3.29',
+21 silly publish      '@types/mocha': '',
+21 silly publish      '@types/node': '',
+21 silly publish      '@types/selenium-webdriver': '',
+21 silly publish      '@types/xlsx': '0.0.30',
+21 silly publish      chai: '3.4.0',
+21 silly publish      elasticsearch: '',
+21 silly publish      log4js: '',
+21 silly publish      mkdirp: '',
+21 silly publish      mocha: '3.1.2',
+21 silly publish      nodemailer: '^4.0.1',
+21 silly publish      'selenium-webdriver': '3.0.0',
+21 silly publish      shortid: '^2.2.6',
+21 silly publish      'sync-request': '3.0.1',
+21 silly publish      xlsx: '' },
+21 silly publish   devDependencies: {},
+21 silly publish   dist:
+21 silly publish    { shasum: '11aafe680a43e7b32e81ade4052149b94fb1bc91',
+21 silly publish      tarball: 'http://172.29.37.159:4873/webframework/-/webframework-1.4.0.tgz' },
+21 silly publish   files: [ 'js', 'definitions', '*.exe' ],
+21 silly publish   license: 'ISC',
+21 silly publish   main: './js/index.js',
+21 silly publish   name: 'webframework',
+21 silly publish   optionalDependencies: {},
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   scripts: {},
+21 silly publish   typings: './definitions/index',
+21 silly publish   version: '1.4.0' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name webframework
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'webframework',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'webframework',
+26 silly mapToRegistry   name: 'webframework',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/webframework
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\vkallem\AppData\Roaming\npm-cache\webframework\1.4.0\package.tgz
+30 verbose request uri https://registry.npmjs.org/webframework
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 3:57:58 PM
+33 verbose request using bearer token for auth
+34 verbose request id 365a3180f4d91266
+35 http request PUT https://registry.npmjs.org/webframework
+36 http 403 https://registry.npmjs.org/webframework
+37 verbose headers { date: 'Tue, 30 Apr 2019 10:28:07 GMT',
+37 verbose headers   'content-type': 'application/json',
+37 verbose headers   'transfer-encoding': 'chunked',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'set-cookie': [ '__cfduid=d40f064d2307a312d5d152091dd9fb4fe1556620079; expires=Wed, 29-Apr-20 10:27:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+37 verbose headers   'cf-ray': '4cf8d386d9168a85-BOM',
+37 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 verbose headers   vary: 'Accept-Encoding',
+37 verbose headers   server: 'cloudflare',
+37 verbose headers   'content-encoding': 'gzip' }
+38 verbose request invalidating C:\Users\vkallem\AppData\Roaming\npm-cache\registry.npmjs.org\webframework on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You do not have permission to publish "webframework". Are you logged in as the correct user? : webframework
+40 verbose stack     at makeError (C:\Users\vkallem\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\vkallem\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at C:\Users\vkallem\AppData\Roaming\nvm\v6.10.3\node_modules\npm\node_modules\npm-registry-client\lib\request.js:216:7
+40 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+40 verbose stack     at emitNone (events.js:91:20)
+40 verbose stack     at Gunzip.emit (events.js:185:7)
+40 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+40 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+40 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+41 verbose statusCode 403
+42 verbose pkgid webframework
+43 verbose cwd C:\WALNUT\node_modules\webframework
+44 error Windows_NT 10.0.17134
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.10.3
+47 error npm  v3.10.10
+48 error code E403
+49 error You do not have permission to publish "webframework". Are you logged in as the correct user? : webframework
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

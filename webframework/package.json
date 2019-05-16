@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "webframework",
+        "scope": null,
+        "escapedName": "webframework",
+        "name": "webframework",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\WALNUT"
+    ]
+  ],
+  "_from": "webframework@latest",
+  "_id": "webframework@1.4.0",
+  "_inCache": true,
+  "_location": "/webframework",
+  "_nodeVersion": "6.7.0",
+  "_npmUser": {},
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "webframework",
+    "scope": null,
+    "escapedName": "webframework",
+    "name": "webframework",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://172.29.37.159:4873/webframework/-/webframework-1.4.0.tgz",
+  "_shasum": "11aafe680a43e7b32e81ade4052149b94fb1bc91",
+  "_shrinkwrap": null,
+  "_spec": "webframework",
+  "_where": "C:\\WALNUT",
+  "author": {
+    "name": "Tuhin Sengupta",
+    "email": "tsengupt@progress.com"
+  },
+  "bin": {
+    "webf": "./js/bin/webf.js"
+  },
+  "dependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/elasticsearch": "^5.0.12",
+    "@types/log4js": "^0.0.32",
+    "@types/mkdirp": "^0.3.29",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.22",
+    "@types/selenium-webdriver": "^3.0.4",
+    "@types/xlsx": "^0.0.30",
+    "chai": "^3.4.0",
+    "elasticsearch": "^13.0.1",
+    "log4js": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.1.2",
+    "nodemailer": "^4.0.1",
+    "selenium-webdriver": "^3.0.0",
+    "shortid": "^2.2.6",
+    "sync-request": "^3.0.1",
+    "xlsx": "^0.10.3"
+  },
+  "description": "",
+  "devDependencies": {},
+  "dist": {
+    "shasum": "11aafe680a43e7b32e81ade4052149b94fb1bc91",
+    "tarball": "http://172.29.37.159:4873/webframework/-/webframework-1.4.0.tgz"
+  },
+  "files": [
+    "js",
+    "definitions",
+    "*.exe"
+  ],
+  "license": "ISC",
+  "main": "./js/index.js",
+  "name": "webframework",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "typings": "./definitions/index",
+  "version": "1.4.0"
+}
