@@ -1,32 +1,14 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "webframework",
-        "scope": null,
-        "escapedName": "webframework",
-        "name": "webframework",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "C:\\WALNUT"
-    ]
-  ],
   "_from": "webframework@latest",
   "_id": "webframework@1.4.0",
-  "_inCache": true,
+  "_inBundle": false,
   "_location": "/webframework",
-  "_nodeVersion": "6.7.0",
-  "_npmUser": {},
-  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
     "raw": "webframework",
-    "scope": null,
     "escapedName": "webframework",
     "name": "webframework",
-    "rawSpec": "",
+    "rawSpec": "1.4.0",
     "spec": "latest",
     "type": "tag"
   },
